@@ -44,7 +44,7 @@ export default function TodoItem({ todo, index }) {
               {todo.image.length !== 0 && (
                 <div className={styles.images}>
                   {todo.image.map((picture) => (
-                    <img src={picturesObj[picture]} alt={picture} />
+                    <img src={picturesObj[picture]} alt={picture} className="object-contain" />
                   ))}
                 </div>
               )}

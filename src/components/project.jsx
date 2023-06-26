@@ -80,7 +80,7 @@ const Project = () => {
                     </button>
                 </div>
                 <div className='flex w-[14.8125rem] justify-between items-center font-[500]'>
-                    <button className='inline-flex justify-center gap-1 px-1 py-[0.15rem] items-center hover:bg-[#5030E5] hover:bg-opacity-[0.2] rounded-lg'>
+                    <button className='inline-flex justify-center gap-1 px-1 py-[0.15rem] items-center hover:bg-[#5030E5] hover:bg-opacity-[0.1] rounded-lg'>
                         <img src={AddSquare} alt={AddSquare} />
                         <span className='font-[1rem] text-blue'>Invite</span>
                     </button>

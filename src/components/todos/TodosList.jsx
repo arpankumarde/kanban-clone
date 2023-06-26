@@ -11,10 +11,10 @@ export default function TodosList({ todosList, type, id }) {
     <div className={styles.todosContainer}>
       <header
         className={`${styles.todoHeader} ${type === "not-started"
-            ? styles.notStarted
-            : type === "started"
-              ? styles.started
-              : styles.completed
+          ? styles.notStarted
+          : type === "started"
+            ? styles.started
+            : styles.completed
           }`}
       >
         <Bullet
@@ -33,11 +33,11 @@ export default function TodosList({ todosList, type, id }) {
               ? "On Progress"
               : "Done"}
         </span>
-        <span className={styles.count}>{todosList.length}</span>
+        <span className='w-5 h-5 rounded-full bg-grey-light flex justify-center items-center text-xs font-medium text-dusky-black mx-1'>{todosList.length}</span>
         {type === "not-started" && (
-          <span className={styles.addTodoButton}>
-            <img src={AddSquare} alt={AddSquare} />
-          </span>
+          <button className='absolute top-[22px] right-[22px]' >
+            <img src={AddSquare} alt={AddSquare} className="w-6 aspect-square" />
+          </button>
         )}
       </header>
       <Droppable droppableId={id}>

@@ -7,7 +7,7 @@
 }
 
 .priority {
-  @apply text-xs font-medium capitalize py-1 px-[6px] rounded-[4px];
+  @apply text-xs font-medium capitalize py-[0.25rem] px-[0.38rem] rounded-[4px];
 }
 
 .low {
