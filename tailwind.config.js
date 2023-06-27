@@ -9,6 +9,9 @@ export default {
       'inter': ['Inter', 'sans-serif']
     },
     extend: {
+      scale: {
+        '-100': '-1',
+      },
       colors: {
         "grey-light-1": "#dbdbdb",
         "grey-light-2": "#eeeeee",
